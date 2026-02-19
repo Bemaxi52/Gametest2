@@ -197,5 +197,18 @@ body, html {
     overflow: hidden;
     position: relative;
 }
+/* --- АНИМИРОВАННАЯ ОБЛОЖКА (ПОЛНАЯ ВЕРСИЯ) --- */
+.animated-cover {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+    pointer-events: none;
+    transform: scale(1.15); /* Увеличиваем чтобы убрать фиолетовые полосы */
+    transform-origin: center;
+}
 
-
+/* Убираем возможное переполнение */
+.game-img {
+    overflow: hidden;
+}
